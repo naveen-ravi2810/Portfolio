@@ -27,9 +27,9 @@ function App() {
   return (
     <div>
       <div className="h-screen fixed top-0 left-0 right-0">
-        <div className={`h-1/2 bg-gradient-to-b from-${TopColor} `}>
+        <div className={`h-1/2 bg-gradient-to-b from-[#8A2424]/[0.26] `}>
         </div>
-        <div className={`h-1/2 bg-gradient-to-t from-${BottomColor}`}>
+        <div className={`h-1/2 bg-gradient-to-t from-[#8F991B]/[0.32]`}>
         </div>
       </div>
       <div className="relative">
