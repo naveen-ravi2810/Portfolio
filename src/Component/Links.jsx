@@ -5,10 +5,10 @@ function Links() {
   return (
     <div>
         {/* For sm */}
-        <div className='md:hidden flex justify-center'>
+        <div className='md:hidden flex justify-center mb-10'>
             <ul className='flex justify-between gap-10'>
                 <li><a href="http://github.com/naveen-ravi2810" target="_blank" rel="noopener noreferrer"><AiFillGithub/></a></li>
-                <li><a href="http://www.linkedin.com/in/naveen-ravi-chandran-258234220/" target="_blank" rel="noopener noreferrer"></a><AiFillLinkedin/></li>
+                <li><a href="http://www.linkedin.com/in/naveen-ravi-chandran-258234220" target="_blank" rel="noopener noreferrer"><AiFillLinkedin/></a></li>
                 <li><a href="http://www.instagram.com/_naveen_.tn_15/" target="_blank" rel="noopener noreferrer"><AiOutlineInstagram/></a></li>
                 <li><AiOutlineTwitter/></li>
             </ul>
