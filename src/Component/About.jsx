@@ -5,8 +5,8 @@ import { LiaUniversitySolid } from 'react-icons/lia';
 function About({aboutref}) {
   return (
     <div ref={aboutref} className='pt-20'>
-      <div id="titl" className='font-extrabold text-3xl pl-20 underline pb-20 uppercase'>Education</div>
-      <div id='Education Details' className='px-24' >
+      <div id="titl" className='font-extrabold text-3xl md:pl-20 pl-6 underline md:pb-20 pb-6 uppercase'>Education</div>
+      <div id='Education Details' className='md:px-24 px-6' >
           <div className='md:block flex'>
           <div className='md:hidden block'>
             <div className='pb-44 border-r-2 border-dotted border-black'></div> <div><span> </span></div>

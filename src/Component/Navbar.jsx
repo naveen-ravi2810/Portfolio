@@ -3,14 +3,14 @@ import { useState } from 'react'
 import { FiMenu } from 'react-icons/fi'
 import { AiOutlineClose } from 'react-icons/ai';
 
-function Navbar({scroll_content, home, about, project, skills, contact}) {
+function Navbar({scroll_content, home, about, project, skills, contact, ActiveSection}) {
 
   const [ShowNavbar, setShowNavbar] = useState(false);
 
   return (
     <div className='sticky top-0'>
       <div className='flex md:justify-between gap-4 items-center md:px-10 bg-gradient-to-r from-white to-amber-900'>
-        <div className='md:hidden'>
+        <div className='md:hidden pl-5'>
           <FiMenu size={20} onClick={()=>setShowNavbar(true)} /> 
         </div>
         <div id="name" className='font-logo-font font-bold text-5xl'>
@@ -18,11 +18,11 @@ function Navbar({scroll_content, home, about, project, skills, contact}) {
         </div>
         <div className='hidden md:block text-xl'>
           <ul className="flex gap-5">
-            <li onClick={()=>scroll_content(home)} className='hover:cursor-pointer '>Home</li>
-            <li onClick={()=>scroll_content(about)} className='hover:cursor-pointer '>About</li>
-            <li onClick={()=>scroll_content(project)} className='hover:cursor-pointer '>Project</li>
-            <li onClick={()=>scroll_content(skills)} className='hover:cursor-pointer '>Skills</li>
-            <li onClick={()=>scroll_content(contact)} className='hover:cursor-pointer '>Contact</li>
+            <li onClick={()=>scroll_content(home)} className={`${ActiveSection === home ? 'underline decoration-white' : null } hover:cursor-pointer`}>Home</li>
+            <li onClick={()=>scroll_content(about)} className={`${ActiveSection === about ? 'underline decoration-white' : null } hover:cursor-pointer`}>About</li>
+            <li onClick={()=>scroll_content(project)} className={`${ActiveSection === project ? 'underline decoration-white' : null } hover:cursor-pointer`}>Project</li>
+            <li onClick={()=>scroll_content(skills)} className={`${ActiveSection === skills ? 'underline decoration-white' : null } hover:cursor-pointer`}>Skills</li>
+            <li onClick={()=>scroll_content(contact)} className={`${ActiveSection === contact ? 'underline decoration-white' : null } hover:cursor-pointer`}>Contact</li>
           </ul>
         </div>
       </div>
