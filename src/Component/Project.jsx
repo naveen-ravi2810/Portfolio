@@ -9,7 +9,7 @@ function Project({projectref}) {
       <h1 id="titl" className='font-extrabold text-3xl md:pl-20 pl-6 underline pb-20 uppercase'>Projects</h1>
       <div>
 
-        <div id="ideaNFT" className='flex'>
+        <div id="ideaNFT" className='md:flex'>
           <div className='w-1/2 p-14 flex justify-center items-center'>
             <div>
               <h2 className='font-serif text-3xl underline'>Idea NFT</h2>
@@ -21,7 +21,7 @@ function Project({projectref}) {
           </div>
         </div>
 
-        <div id="Shoppingweb" className='flex'>
+        <div id="Shoppingweb" className='md:flex'>
           <div className='w-1/2 h-1/2 p-20'>
             <img src={supermarket} alt="Supermarket Login IMG" />
           </div>
@@ -33,7 +33,7 @@ function Project({projectref}) {
           </div>
         </div>
 
-        <div id="ideaNFT" className='flex h-1/3'>
+        <div id="ideaNFT" className='md:flex h-1/3'>
           <div className='w-1/2 p-14 flex justify-center items-center'>
             <div>
               <h2 className='font-serif text-3xl underline'>KOLA</h2>
