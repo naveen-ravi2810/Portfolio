@@ -18,7 +18,7 @@ function Skills({skillsref}) {
           <h2 className='text-2xl font-semibold md:no-underline underline md:pb-3 pb-4'>Web/App Development</h2>
           <div className='md:grid grid-cols-2 pt-2 gap-y-5 md:space-y-0 space-y-5 pb-6'>
             <p className='flex items-center gap-3 text-xl font-serif'><img className='w-[8%]' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1920px-HTML5_logo_and_wordmark.svg.png" alt="" /> HTML </p>
-            <p className='flex items-center gap-3 text-xl font-serif'><img className='w-[8%]' src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="" /> CS </p>
+            <p className='flex items-center gap-3 text-xl font-serif'><img className='w-[8%]' src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="" /> CSS </p>
             <p className='flex items-center gap-3 text-xl font-serif'><img className='w-[8%]' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/220px-Unofficial_JavaScript_logo_2.svg.png" alt="" /> JS </p>
           </div>
         </div>
