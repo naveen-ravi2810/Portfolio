@@ -8,7 +8,10 @@ module.exports = {
       fontFamily:{
         'logo-font' : ['Island Moments', 'cursive'],
         'quotes' : ['Fasthand', 'cursive']
-      }
+      },
+      scrollSnapType: {
+        'y-mandatory': 'y mandatory',
+      },
     },
   },
   plugins: [],

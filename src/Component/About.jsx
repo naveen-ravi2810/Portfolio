@@ -44,6 +44,7 @@ function About({aboutref}) {
           </div>
           </div>
       </div>
+      <h1 className="md:flex hidden justify-center text-3xl font-quotes ">---Target your goals and then work on it---</h1>
     </div>
   )
 }
