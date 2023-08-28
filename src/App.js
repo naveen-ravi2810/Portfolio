@@ -94,10 +94,12 @@ function App() {
         <div className={`h-1/2 bg-gradient-to-t from-green-200`}>
         </div>
       </div>
-      <div className="relative scrollSnapType-y-mandatory scroll-smooth overflow-y-auto h-[100vh]" style={{scrollbarWidth : "none"}}>
+      <div className="relative" style={{scrollbarWidth : "none"}}>
         <Navbar scroll_content={scroll_content} home={home} about={about} project={project} skills={skills} contact={contact} ActiveSection={activeSection}/>
         <Home homeref={home}/>
+        <h1 className="md:flex hidden justify-center text-3xl font-quotes ">---Mistakes are the lessons that teach you to rectify Errors---</h1>
         <About aboutref={about}/>
+        <h1 className="md:flex hidden justify-center text-3xl font-quotes ">---Target your goals and then work on it---</h1>
         <Project projectref={project}/>
         <Skills skillsref={skills}/>
         <Contact contactref={contact}/>

@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 function Home({homeref}) {
   return (
-    <div ref={homeref} className='md:py-48 md:pt-36 pt-16 flex justify-between items-center md:px-[20%] px-6 h-[100vh]'>
+    <div ref={homeref} className='md:py-48 md:pt-36 pt-16 flex justify-between items-center md:px-[20%] px-6'>
       <div id="moto" className='md:w-[45%]'>
           <h3 className='text-2xl'>Hi, I am </h3>
           <h1 className='font-bold text-4xl '>
@@ -27,7 +27,6 @@ function Home({homeref}) {
       <div id="picture" className='w-[40%] md:block hidden'>
           <img className='w-full' src={profile} alt="" />
       </div>
-      <h1 className="md:flex hidden justify-center text-3xl font-quotes ">---Mistakes are the lessons that teach you to rectify Errors---</h1>
     </div>
   )
 }
