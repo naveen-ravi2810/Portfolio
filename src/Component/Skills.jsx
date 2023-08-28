@@ -39,7 +39,7 @@ function Skills({skillsref}) {
           </div>
         </div>
         <div id="cloudtechnology">
-          <h2 className='text-2xl font-semibold md:no-underline underline md:pb-3 pb-4'>Cloud Technology</h2>
+          <h2 className='text-2xl font-semibold md:no-underline underline md:pb-3 pb-4'>Clound Technology</h2>
           <div className='md:grid grid-cols-2 pt-2 gap-y-5 md:space-y-0 space-y-5 pb-6'>
             <p className='flex items-center gap-3 text-xl font-serif'><img className='w-[8%]' src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/AWS_Simple_Icons_Compute_Amazon_EC2_Instances.svg/1200px-AWS_Simple_Icons_Compute_Amazon_EC2_Instances.svg.png" alt="" />EC2</p>
             <p className='flex items-center gap-3 text-xl font-serif'><img className='w-[8%]' src="https://roi4cio.com/fileadmin/user_upload/aws_rds.png" alt="" />RDS</p>
