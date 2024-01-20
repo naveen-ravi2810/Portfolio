@@ -98,7 +98,7 @@ function App() {
         <Navbar scroll_content={scroll_content} home={home} about={about} project={project} skills={skills} contact={contact} ActiveSection={activeSection}/>
         <Home homeref={home}/>
         <h1 className="md:flex hidden justify-center text-3xl font-quotes ">---Mistakes are the lessons that teach you to rectify Errors---</h1>
-        <About aboutref={about}/> <br/> <br/>
+        <About aboutref={about}/>
         <h1 className="md:flex hidden justify-center text-3xl font-quotes ">---Target your goals and then work on it---</h1>
         <Project projectref={project}/>
         <Skills skillsref={skills}/>
